@@ -1,0 +1,231 @@
+.download {
+    height: 100vh;
+    background-color: #fff;
+}
+
+.download-wrapper {
+    max-width: 1600px;
+    margin: 0 auto 112px;
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.download-title {
+    margin: 283px 0 0;
+    font-size: 128px;
+    font-weight: bold;
+    color: #5052EA;
+}
+
+.download-text {
+    color: #000;
+    margin: 0 0 336px;
+    font-size: 32px;
+}
+
+.download-text-strong {
+    color: #000;
+    font-weight: bold;
+}
+
+.download-cards {
+    display: flex;
+    gap: 16px;
+    margin: 0 0 112px;
+    flex-wrap: wrap;
+}
+
+.donwload-card {
+    padding: 40px;
+    max-height: 142px;
+    min-width: 388px;
+    border-radius: 16px;
+    background-color: #5052EA;
+    font-size: 32px;
+}
+
+.donwload-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 32px;
+}
+
+.download-wrapper {
+    transform: translateX(-100px);
+    /* начальное смещение */
+    opacity: 0;
+    transition: transform 0.8s ease-out, opacity 0.8s ease-out;
+}
+
+.download-wrapper.visible {
+    transform: translateX(0);
+    opacity: 1;
+}
+
+@media (max-width: 1440px) {
+
+    .download-wrapper {
+        max-width: 1281px;
+        margin: 0 auto 112px;
+        padding: 0 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .download-title {
+        margin: 283px 0 0;
+        font-size: 96px;
+        font-weight: bold;
+        color: #5052EA;
+    }
+
+    .download-text {
+        color: #000;
+        margin: 0 0 336px;
+        font-size: 24px;
+    }
+
+    .donwload-card {
+        padding: 40px;
+        max-height: 112px;
+        min-width: 308px;
+        border-radius: 16px;
+        background-color: #5052EA;
+        font-size: 32px;
+    }
+
+    .donwload-text {
+        font-size: 24px;
+    }
+
+
+}
+
+@media (max-width: 1194px) {
+
+    .download-wrapper {
+        max-width: 1031px;
+        margin: 0 auto 112px;
+        padding: 0 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .download-title {
+        margin: 283px 0 0;
+        font-size: 64px;
+        font-weight: bold;
+        color: #5052EA;
+    }
+
+    .download-text {
+        color: #000;
+        margin: 0 0 336px;
+        font-size: 20px;
+    }
+
+    .donwload-card {
+        padding: 32px;
+        max-height: 89px;
+        min-width: 247px;
+        border-radius: 16px;
+        background-color: #5052EA;
+        font-size: 32px;
+    }
+
+    .donwload-text {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 834px) {
+
+    .download-wrapper {
+        max-width: 721px;
+        margin: 0 auto 112px;
+        padding: 0 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }    
+
+    .download-title {
+        margin: 283px 0 0;
+        font-size: 48px;
+        font-weight: bold;
+        color: #5052EA;
+    }
+
+    .download-text {
+        color: #000;
+        margin: 0 0 336px;
+        font-size: 16px;
+        text-align: left;
+    }
+
+    .donwload-card {
+        padding: 24px;
+        max-height: 80px;
+        min-width: 230px;
+        border-radius: 16px;
+        background-color: #5052EA;
+        font-size: 32px;
+    }
+
+    .donwload-text {
+        font-size: 16px;
+    }
+}
+
+
+@media (max-width: 375px) {
+
+    .download-wrapper {
+        max-width: 359px;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }   
+
+    .download-title {
+        margin: 283px 0 0;
+        font-size: 36px;
+        font-weight: bold;
+        color: #5052EA;
+        text-align: center;
+    }
+
+    .download-text {
+        color: #000;
+        margin: 16px 0 72px;
+        font-size: 12px;
+        text-align: center;
+    }
+
+    .download-cards {
+        display: flex;
+        gap: 16px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .donwload-card {
+        padding: 16px;
+        max-height: 56px;
+        min-width: 171px;
+        border-radius: 16px;
+        background-color: #5052EA;
+        font-size: 32px;
+    }
+
+    .donwload-text {
+        font-size: 12px;
+    }
+}

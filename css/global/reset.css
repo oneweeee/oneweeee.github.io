@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: "Inter", "Arial", sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    scroll-behavior: smooth;
+    font-style: normal;
+}
+
+
+body {
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: #fff;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.hero,
+.about,
+.finance,
+.download,
+.social,
+.footer {
+    position: relative;
+    transition: transform 0.3s ease-out;
+    will-change: transform;
+}

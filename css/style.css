@@ -1,0 +1,15 @@
+/* Global */
+@import url('./global/reset.css');
+
+/* Blocks */
+@import url('./blocks/hero.css');
+@import url('./blocks/header.css');
+@import url('./blocks/inner.css');
+@import url('./blocks/about.css');
+@import url('./blocks/finance.css');
+@import url('./blocks/download.css');
+@import url('./blocks/social.css');
+@import url('./blocks/contact.css');
+@import url('./blocks/footer.css');
+@import url('./blocks/box.css');
+

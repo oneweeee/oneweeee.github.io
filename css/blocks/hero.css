@@ -1,0 +1,138 @@
+
+.hero {
+    min-height: 1920px;
+    background-color: #5052EA;
+    position: sticky;
+    top: -100% !important;
+    padding-bottom: 112px;
+}
+
+.hero-wrapper {
+    max-width: 1600px;
+    margin: 80px auto;
+    padding: 0 20px;
+}
+
+.hero-zone {
+    position: relative;
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+}
+
+.hero-image {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    pointer-events: none;
+    border-radius: 12px;
+    opacity: 0;
+    transform: translate(-50%, -50%) scale(0.8) rotate(0deg);
+    transition: transform 0.4s ease, opacity 0.4s ease;
+}
+
+
+.hero-img {
+    position: sticky;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.hero-img {
+    position: sticky;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    
+}
+
+.row {
+    display: flex;
+    gap: 20px;
+    transition: transform 0.1s linear;
+}
+
+.row img {
+    width: 388px;
+    height: 240px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+@media (max-width: 1440px) {
+    .hero {
+        min-height: 1440px;
+        background-color: #5052EA;
+        position: sticky;
+        top: -100% !important;
+    }
+    .hero-wrapper {
+        max-width: 1281px;
+        margin: 80px auto;
+        padding: 0 20px;
+    }
+    .row img {
+        width: 308px;
+        height: 206px;
+        object-fit: cover;
+        border-radius: 10px;
+    }
+}
+
+@media (max-width: 1194px) {
+    .hero {
+        min-height: 1194px;
+        background-color: #5052EA;
+        position: sticky;
+        top: -100% !important;
+    }
+    .hero-wrapper {
+        max-width: 1031px;
+        margin: 80px auto;
+        padding: 0 20px;
+    }
+    .row img {
+        width: 247px;
+        height: 165px;
+        object-fit: cover;
+        border-radius: 10px;
+    }
+}
+
+@media (max-width: 834px) {
+    .hero {
+        min-height: 834px;
+        background-color: #5052EA;
+        position: sticky;
+        top: -100% !important;
+    }
+    .hero-wrapper {
+        max-width: 721px;
+        margin: 80px auto;
+        padding: 0 20px;
+    }
+    .row img {
+        width: 230px;
+        height: 128px;
+        object-fit: cover;
+        border-radius: 10px;
+    }
+}
+
+@media (max-width: 375px) {
+
+    .hero-wrapper {
+        max-width: 375px;
+        margin: 80px auto;
+        padding: 0 10px;
+    }
+    .row img {
+        width: 171px;
+        height: 94px;
+        object-fit: cover;
+        border-radius: 10px;
+    }
+}
